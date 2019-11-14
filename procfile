@@ -1,0 +1,1 @@
+web: gunicorn earn.wsgi --log-file 
