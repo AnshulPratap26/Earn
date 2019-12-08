@@ -16,15 +16,22 @@
   
 </head>
 <style>
+	{% load static %}
 
 	body{
 		text-align-last: center;
+		background-image: url({% static 'ern/bck.jpg'%});
+		position: relative;
+		background-size: cover; 
+		
 	}
+
+
 
 	.container{
 
 		border: dotted;
-    	background-color: mistyrose;
+    	background-color: #ccd7de9c;
 	}
 
 	h1{
@@ -59,8 +66,7 @@
 	}
 
 </style>
-
-<body>
+<body class="body">
     <div class="container mt-2">
 
     	 <h1>welcome to HaveFun: <span>The Best Way to Make fun</span></h1>
